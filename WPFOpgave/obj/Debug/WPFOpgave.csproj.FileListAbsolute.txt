@@ -1,0 +1,15 @@
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\bin\Debug\WPFOpgave.exe.config
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\bin\Debug\WPFOpgave.exe
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\bin\Debug\WPFOpgave.pdb
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.csprojAssemblyReference.cache
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\MainWindow.g.cs
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\App.g.cs
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave_MarkupCompile.cache
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave_MarkupCompile.lref
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\MainWindow.baml
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.g.resources
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.Properties.Resources.resources
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.csproj.GenerateResource.cache
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.csproj.CoreCompileInputs.cache
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.exe
+C:\Users\jona748e\source\repos\WPFOpgave\WPFOpgave\obj\Debug\WPFOpgave.pdb
