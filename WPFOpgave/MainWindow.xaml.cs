@@ -24,7 +24,13 @@ namespace WPFOpgave
         {
             InitializeComponent();
 
-            movie.ItemsSource = GetAll();
+            MovieRepository instance = new MovieRepository();
+
+            List<Movie> movies = new List<Movie>();
+
+            movies = instance.GetAll();
+
+            movieList.ItemsSource = movies;
         }
     }
 }

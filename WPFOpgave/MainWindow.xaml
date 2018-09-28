@@ -16,8 +16,8 @@
                 <Label Content="Label" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top"/>
                 <Label Content="Label" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top"/>
                 <Label Content="Label" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top"/>
-                <TextBlock HorizontalAlignment="Left" Margin="96,15,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-                <TextBlock HorizontalAlignment="Left" Margin="96,77,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+                <TextBox x:Name="inputTitle" HorizontalAlignment="Left" Margin="96,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+                <TextBox x:Name="inputDirector" HorizontalAlignment="Left" Margin="96,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
                 <DatePicker HorizontalAlignment="Left" Margin="96,42,0,0" VerticalAlignment="Top"/>
                 <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="96,109,0,0" VerticalAlignment="Top"/>
                 <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="96,144,0,0" VerticalAlignment="Top"/>
@@ -35,8 +35,22 @@
             <Label Content="Label" HorizontalAlignment="Left" Margin="275,41,0,0" VerticalAlignment="Top"/>
             <DatePicker HorizontalAlignment="Left" Margin="151,42,0,0" VerticalAlignment="Top"/>
             <DatePicker HorizontalAlignment="Left" Margin="318,42,0,0" VerticalAlignment="Top"/>
-            <TextBlock HorizontalAlignment="Left" Margin="108,15,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-            <DataGrid Name="movie" HorizontalAlignment="Left" Height="232" Margin="10,95,0,0" VerticalAlignment="Top" Width="409"/>
+            <TextBox HorizontalAlignment="Left" Margin="108,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+            <DataGrid Name="movieList" HorizontalAlignment="Left" Height="232" Margin="10,95,0,0" VerticalAlignment="Top" Width="409" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Title" Binding="{Binding Title}" />
+                    <DataGridTemplateColumn Header="Udg">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <DatePicker SelectedDate="{Binding ReleaseDate}" BorderThickness="0" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Director" Binding="{Binding Director}" />
+                    <DataGridTextColumn Header="Color" Binding="{Binding IsColor}" />
+                    <DataGridTextColumn Header="Genre" Binding="{Binding Genre}" />
+                </DataGrid.Columns>
+            </DataGrid>
         </Grid>
 
     </Grid>
